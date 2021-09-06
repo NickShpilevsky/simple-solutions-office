@@ -1,0 +1,353 @@
+@font-face {
+    font-family: "e-UkraineHead-Regular-Woff";
+    src: local("UkraineHeadWoff"),
+    url("./fonts/e-UkraineHead-Regular-Woff.woff") format("truetype");
+    font-weight: bold;
+}
+
+.App {
+    text-align: center;
+    background: lightgrey;
+    font-family: e-UkraineHead-Regular-Woff;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 820px) {
+    .header {
+        background: #007e2e;
+        color: white;
+        padding: 0px 25px 25px 25px;
+    }
+
+    .header h1 {
+        font-size: 2em !important;
+    }
+
+    .subtitle {
+        width: 50% !important;
+        color: white;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .App-header {
+        background-color: #282c34;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+
+    .App-link {
+        color: #61dafb;
+    }
+
+    .p-divider.p-divider-horizontal .p-divider-content {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .card {
+        text-align: left;
+        background: white;
+        margin: 25px 10% !important;
+        border-radius: 5px;
+        padding: 5px 10px 10px 10px;
+        -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.43);
+        -moz-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.43);
+        box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.43);
+    }
+
+    .card h2 {
+        margin-right: 45px;
+        font-size: 1.5em !important;
+    }
+
+    .accordion-demo .accordion-custom i, .accordion-demo .accordion-custom span {
+        vertical-align: middle;
+    }
+
+    .accordion-demo .accordion-custom span {
+        margin: 0 .5rem;
+    }
+
+    .accordion-demo .p-accordion p {
+        line-height: 1.5;
+        margin: 0;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .resultSectionRow{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .p-accordion-header-text .row {
+        display: flex;
+        flex-direction: row !important;
+    }
+
+    .right {
+        position: absolute !important;
+        right: 20px !important;
+        margin: 0 !important;
+    }
+
+    .divider {
+        width: 100%;
+        height: 1px;
+        background: lightgrey;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .p-divider.p-divider-horizontal .p-divider-content {
+        background: lightgrey;
+    }
+
+    .resultSection {
+        width: 100%;
+        background: #01518e;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
+        padding-bottom: 5% !important;
+    }
+
+    .resultSection .p-divider.p-divider-horizontal .p-divider-content {
+        background: #01518e;
+        text-align: center;
+    }
+
+    .resultLineTitle {
+        width: 70%;
+    }
+
+    .resultLineDigit {
+        width: 15%;
+    }
+
+    .p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button, .p-fileupload-choose.p-button-success {
+        background: #007e2e;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .economicImpactCard {
+        width: 48% !important;
+        margin: 0 !important;
+        margin-right: 4% !important;
+        font-size: 1em !important;
+    }
+
+    .doingBusinessCard {
+        width: 48% !important;
+        min-height: 396.17px !important;
+        margin: 0 !important;
+        font-size: 1em !important;
+    }
+}
+
+/*-----------For Phone-------------*/
+
+.header {
+    background: #007e2e;
+    color: white;
+    padding: 0px 10px 10px 10px;
+}
+
+.header h1 {
+    font-size: 1.6em;
+}
+
+.subtitle {
+    width: 80%;
+    color: white;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.p-divider.p-divider-horizontal .p-divider-content {
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-divider.p-divider-horizontal .p-divider-content .p-button {
+    margin-bottom: 5px;
+}
+
+.card {
+    text-align: left;
+    background: white;
+    margin: 25px 5%;
+    border-radius: 5px;
+    padding: 5px 10px 10px 10px;
+    -webkit-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.43);
+    -moz-box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.43);
+    box-shadow: 0px 5px 10px -5px rgba(0, 0, 0, 0.43);
+}
+
+.card h2 {
+    margin-right: 45px;
+    font-size: 1.2em;
+    width: 100%;
+}
+
+.card .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.accordion-demo .accordion-custom i, .accordion-demo .accordion-custom span {
+    vertical-align: middle;
+}
+
+.accordion-demo .accordion-custom span {
+    margin: 0 .5rem;
+}
+
+.accordion-demo .p-accordion p {
+    line-height: 1.5;
+    margin: 0;
+}
+
+.p-accordion-header-text .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    position: relative;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.resultSectionRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    background: lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p-divider .p-divider-horizontal .p-divider-content {
+    background: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+}
+
+.resultSection {
+    width: 100%;
+    background: #01518e;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.resultSection .p-divider.p-divider-horizontal .p-divider-content {
+    background: #01518e;
+    text-align: center;
+}
+
+.resultLineTitle {
+    width: 60%;
+}
+
+.resultLineDigit {
+    width: 20%;
+}
+
+.p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button, .p-fileupload-choose.p-button-success {
+    background: #007e2e;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center !important;
+}
+
+.economicImpactCard {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5%;
+    font-size: 0.8em;
+}
+
+.doingBusinessCard {
+    width: 100%;
+    min-height: 396.17px;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+/*-----------For All-------------*/
+
+.logo {
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doingBusinessCardImage {
+    width: 100%;
+    text-align: center;
+}
+
+.pi-chart-line:before {
+    font-size: 14rem;
+}
+
+.resultDivider {
+    background: #01518e;
+    color: white;
+    font-family: e-UkraineHead-Regular-Woff;
+}
+
+@keyframes ui-progress-spinner-color {
+    100%,
+    0% {
+        stroke: #ffa700;
+    }
+    33% {
+        stroke: #008744;
+    }
+    66% {
+        stroke: #0057e7;
+    }
+}
