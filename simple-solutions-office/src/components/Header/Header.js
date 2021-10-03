@@ -4,9 +4,15 @@ import {Divider} from "primereact/divider";
 
 export const Header = () => {
 
+  const onLogoClick = () => {
+    console.log('Here!');
+    window.location = "https://simple.org.ua/";
+  };
+
   return (
     <div className="header">
-      <div className="logo">
+      <a href="https://simple.org.ua/" className="back-to-main-btn"><i className="pi pi-chevron-left"></i> Повернутися на головну</a>
+      <div className="logo" onClick={onLogoClick}>
         <img src={logo} alt="logo"/>
         <h3>Офіс простих рішень та результатів</h3>
       </div>
